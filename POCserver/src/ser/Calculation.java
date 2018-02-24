@@ -2,7 +2,7 @@ package ser;
 
 import java.rmi.Remote;
 
-public interface Calculations extends Remote {
+public interface Calculation extends Remote {
 		
 	int compute(int x);
 }

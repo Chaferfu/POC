@@ -1,6 +1,6 @@
 package ser;
 
-public class CalculationImpl implements Calculations {
+public class CalculationImpl implements Calculation {
 
 	private static int nbCalculateurs = 0;
 	private String id;
@@ -16,7 +16,7 @@ public class CalculationImpl implements Calculations {
 	@Override
 	public int compute(int x) {
 
-		System.out.println("Salut, je suis nÂ° :" + id);
+		System.out.println("Salut, je suis n° :" + id);
 		return 2*x;
 	}
 
