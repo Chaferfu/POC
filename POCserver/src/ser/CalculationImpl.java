@@ -14,10 +14,9 @@ public class CalculationImpl implements Calculation {
 	
 	
 	@Override
-	public int compute(int x) {
+	public Out compute(int x) {
 
-		System.out.println("Salut, je suis n° :" + id);
-		return 2*x;
+		return new Out(2*x, id);
 	}
 
 }
