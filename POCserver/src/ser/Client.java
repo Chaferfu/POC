@@ -22,7 +22,7 @@ public class Client implements Runnable
 			{
 				System.setSecurityManager(new SecurityManager());
 			}
-			Registry registry = LocateRegistry.getRegistry("localhost",1099);
+			Registry registry = LocateRegistry.getRegistry("localhost",1500);
 			Calculation stub = (Calculation) registry.lookup("catalogue");		 			
 			
 		} catch (Exception e) 
